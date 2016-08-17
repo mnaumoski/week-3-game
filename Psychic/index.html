@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Psychic Game</title>
+</head>
+<body>
+
+<!-- This is where the code will go that we created. -->
+<div id="game">
+	<p>Welcome to the Psychic Game. Please choose a number between 1 and 10</p>
+</div>
+
+<script type="text/javascript">
+var computerGuess = Math.floor((Math.random() * 10) + 1);
+var userGuess = prompt("Choose a number 1-10!");
+
+    if userGuess === computerGuess {
+	alert("Congrats! You've won!");
+	}
+	else {
+	alert("Try again!");
+	}
+
+
+</script>
+</body>
+</html>
